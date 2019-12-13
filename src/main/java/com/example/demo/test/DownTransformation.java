@@ -33,6 +33,5 @@ public class DownTransformation {
         if (person instanceof Object){
             System.out.println("person 是 Object 的子类");
         }
-
     }
 }
