@@ -7,8 +7,9 @@ import com.example.demo.po.Person;
  * @Author: ZYC
  * @Date: 2019-12-13
  **/
-public class DownTransformation {
+public class Basic {
 
+    //向下和向上转型
     private void test(){
         /*
         正常引用对象
