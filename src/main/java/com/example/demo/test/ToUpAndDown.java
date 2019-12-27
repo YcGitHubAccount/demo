@@ -3,11 +3,11 @@ package com.example.demo.test;
 import com.example.demo.po.Person;
 
 /**
- * @Description:
+ * @Description: 向下转型和向上转型
  * @Author: ZYC
  * @Date: 2019-12-13
  **/
-public class Basic {
+public class ToUpAndDown {
 
     //向下和向上转型
     private void test(){
@@ -17,7 +17,7 @@ public class Basic {
         Object noramlObject = new Object();
         Person normalPerson = new Person();
         /*
-        向上转型
+        向上转型,只能使用父类的方法
          */
         Object monkey = new Person();
         //Person转型为object,只能调用object方法
